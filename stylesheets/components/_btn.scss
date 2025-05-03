@@ -1,0 +1,39 @@
+/* 右下角圖片按鈕 */
+.custom-popover {
+  position: relative;
+  background-color: $white;
+  border: 2px solid $dark;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  max-width: 200px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  color: $dark;
+  &::after { /* 外層：三角形邊框（黑邊） */
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 12px 12px 0;
+  border-style: solid;
+  border-color: $dark transparent transparent transparent;
+  z-index: 0;
+  }
+  &::before { /* 內層：三角形底色（白底） */
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px 10px 0;
+  border-style: solid;
+  border-color: $white transparent transparent transparent;
+  z-index: 1;
+  }
+}
+.custom-img {
+  &:hover {
+    content: url('/images/btn2.png');
+  }
+}

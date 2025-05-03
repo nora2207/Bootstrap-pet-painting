@@ -1,0 +1,11 @@
+/* banner 文字 */
+.centered-text {
+  color: #868873;
+  &::before {
+    content: attr(data-storke);
+    position: absolute;
+    z-index: -1;
+    -webkit-text-stroke: 5px $white;
+    text-stroke: 5px $white;
+  }
+}

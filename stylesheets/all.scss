@@ -1,0 +1,79 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+
+// Configuration
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+
+// Layout & components
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/tables";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/transitions";
+// @import "dropdown";
+// @import "button-group";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/card";
+// @import "accordion";
+// @import "breadcrumb";
+@import "../node_modules/bootstrap/scss/pagination";
+// @import "badge";
+// @import "alert";
+// @import "progress";
+// @import "list-group";
+@import "../node_modules/bootstrap/scss/close";
+// @import "toasts";
+// @import "modal";
+// @import "tooltip";
+// @import "popover";
+// @import "carousel";
+// @import "spinners";
+// @import "../node_modules/bootstrap/scss/offcanvas";
+// @import "placeholders";
+
+// Helpers
+@import "../node_modules/bootstrap/scss/helpers";
+
+// Utilities
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+// custom
+@import"./components/banner";
+@import"./components/btn";
+@import"./components/checkbox";
+@import"./components/nav";
+@import"./components/overlay";
+
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  padding: 0;
+  a {
+    text-decoration: none;
+  }
+}
+
+/* 字體 */
+.kalam-light {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
