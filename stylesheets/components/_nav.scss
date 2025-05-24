@@ -1,4 +1,4 @@
-/* 上方 nav */
+/* 上方 nav 黃按鈕 */
 .custom-link {
   border-top: 1px solid $lightgray;
   @media (min-width: 992px) {
@@ -6,8 +6,23 @@
   }
 }
 .navbar-btn{
+  &:hover {
+    @media (min-width: 992px) {
+      background: #f4ce6c;
+    }
+  }
   @media (min-width: 992px) {
     background-color: $primary;
     border-radius: 50rem;
   } 
 }
+
+/* 上方 nav 黃線 */
+.navbar-line {
+  height: 2px;
+  background-color: $primary;
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
+
