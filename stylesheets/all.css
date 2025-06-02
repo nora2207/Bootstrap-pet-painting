@@ -9439,7 +9439,8 @@ textarea.form-control-lg {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   color: #212529;
 }
-.custom-popover::after { /* 外層：三角形邊框（黑邊） */
+.custom-popover::after {
+  /* 外層：三角形邊框（黑邊） */
   content: "";
   position: absolute;
   bottom: -12px;
@@ -9450,7 +9451,8 @@ textarea.form-control-lg {
   border-color: #212529 transparent transparent transparent;
   z-index: 0;
 }
-.custom-popover::before { /* 內層：三角形底色（白底） */
+.custom-popover::before {
+  /* 內層：三角形底色（白底） */
   content: "";
   position: absolute;
   bottom: -10px;
@@ -9462,8 +9464,16 @@ textarea.form-control-lg {
   z-index: 1;
 }
 
+.custom-img {
+  display: block;
+  width: 140px;
+  height: 153px;
+  background-image: url("../../images/btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .custom-img:hover {
-  content: url("../../images/btn2.png");
+  background-image: url("../../images/btn2.png");
 }
 
 /*  checkbox文字對齊  */
@@ -9541,7 +9551,7 @@ textarea.form-control-lg {
 
 body {
   font-family: "Noto Sans", sans-serif;
-  background-image: url(./images/lightpaperfibers.png);
+  background-image: url(../images/lightpaperfibers.png);
   padding: 0;
 }
 body a {
