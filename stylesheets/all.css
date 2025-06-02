@@ -9463,7 +9463,7 @@ textarea.form-control-lg {
 }
 
 .custom-img:hover {
-  content: url("/images/btn2.png");
+  content: url("./images/btn2.png");
 }
 
 /*  checkbox文字對齊  */
@@ -9541,7 +9541,7 @@ textarea.form-control-lg {
 
 body {
   font-family: "Noto Sans", sans-serif;
-  background-image: url(/images/lightpaperfibers.png);
+  background-image: url(./images/lightpaperfibers.png);
   padding: 0;
 }
 body a {
