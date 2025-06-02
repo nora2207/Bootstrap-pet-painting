@@ -9463,7 +9463,7 @@ textarea.form-control-lg {
 }
 
 .custom-img:hover {
-  content: url("./images/btn2.png");
+  content: url("../../images/btn2.png");
 }
 
 /*  checkbox文字對齊  */
