@@ -9476,6 +9476,78 @@ textarea.form-control-lg {
   background-image: url("/Bootstrap-pet-painting/images/btn2.png");
 }
 
+.hover-img1 {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("/Bootstrap-pet-painting/images/dog01.png");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+.hover-img1:hover {
+  background-image: url("/Bootstrap-pet-painting/images/dog01-hover-1.png");
+}
+
+.hover-img2 {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("/Bootstrap-pet-painting/images/04.png");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+.hover-img2:hover {
+  background-image: url("/Bootstrap-pet-painting/images/dog01-hover.png");
+}
+
+.hover-img3 {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("/Bootstrap-pet-painting/images/08.png");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+.hover-img3:hover {
+  background-image: url("/Bootstrap-pet-painting/images/dog01-hover-2.png");
+}
+
+.hover-img4 {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("/Bootstrap-pet-painting/images/06.png");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+.hover-img4:hover {
+  background-image: url("/Bootstrap-pet-painting/images/dog01-hover-1.png");
+}
+
+.hover-img5 {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("/Bootstrap-pet-painting/images/07.png");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+.hover-img5:hover {
+  background-image: url("/Bootstrap-pet-painting/images/dog01-hover.png");
+}
+
+.hover-img6 {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("/Bootstrap-pet-painting/images/05.png");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+.hover-img6:hover {
+  background-image: url("/Bootstrap-pet-painting/images/dog01-hover-2.png");
+}
+
 /*  checkbox文字對齊  */
 .checkbox-align {
   position: relative;
