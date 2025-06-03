@@ -9468,12 +9468,12 @@ textarea.form-control-lg {
   display: block;
   width: 140px;
   height: 153px;
-  background-image: url("Bootstrap-pet-painting/images/btn.png");
+  background-image: url("/Bootstrap-pet-painting/images/btn.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .custom-img:hover {
-  background-image: url("Bootstrap-pet-painting/images/btn2.png");
+  background-image: url("/Bootstrap-pet-painting/images/btn2.png");
 }
 
 /*  checkbox文字對齊  */
